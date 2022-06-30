@@ -34,7 +34,7 @@ def user():
     n = int(input('nmuber4 for n:'))
     return check_fermat(a, b, c, n)
 
-(user()
+user()
 
 
     
