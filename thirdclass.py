@@ -35,9 +35,7 @@
 # print(joined)
 
 #### functions ####
-# def add_numbers(a
-
-# :int, b:int):
+# def add_numbers(a:int, b:int):
 #     print(a + b)
 
 
@@ -61,32 +59,49 @@
 
 # print(add_numbers(53, 70))
 
-def sipmle_interest(p:int, r:int, t:int):
-    '''this function calculates simple interest.
+# def sipmle_interest(p:int, r:int, t:int):
+#     '''this function calculates simple interest.
 
-    Args:
-        p (int): this is principal
-        r (int): this is rate
-        t (int): this is time
+#     Args:
+#         p (int): this is principal
+#         r (int): this is rate
+#         t (int): this is time
 
-    returns:
-        p*r*t (int): this is the multiplication of p, r and t
-    '''
-    return p*r*t / 100    
+#     returns:
+#         p*r*t (int): this is the multiplication of p, r and t
+#     '''
+#     return p*r*t / 100    
 
-I = sipmle_interest(5000, 3, 4) 
-print(I)
+# I = sipmle_interest(5000, 3, 4) 
+# print(I)
 
-def perimeter(r:int):
-    '''this function calculates the perimeter of a circle
+# def perimeter(r:int):
+#     '''this function calculates the perimeter of a circle
 
-    Args:
-        r (int): this is the radius of a circle
+#     Args:
+#         r (int): this is the radius of a circle
     
-    returns:
-       2 * pi * r (int, float, int): this is the multiplication of 2, pi and r
-    '''
-    pi = 3.142
-    return 2 * pi * r
+#     returns:
+#        2 * pi * r (int, float, int): this is the multiplication of 2, pi and r
+#     '''
+#     pi = 3.142
+#     return 2 * pi * r
 
-print(perimeter(5))
+# print(perimeter(5))
+
+# name = 'my name is olowu anthony'
+# print(name.split(' '))
+
+# joined = (name.split(' '))
+# b = '-'.join(joined)
+# print(b)
+
+# name = 'antidony'
+# print(name.replace('i''d','h''o'))
+
+# sentence = 'this is my way'
+# search_for = 'is'
+# b = sentence.count(search_for)
+
+# print('f{b} result(s) found')
+# print(sentence.replace(search_for))
